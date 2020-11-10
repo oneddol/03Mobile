@@ -28,11 +28,11 @@
         return false;
     })
     // 검색 버튼
-    var input = form.querySelector('input')
-    $('#wrap').on('click', '.searchBox .sOpen', function(){
-        var sch = input.value
-        console.log(sch)
-    })
+    // var input = form.querySelector('input')
+    // $('#wrap').on('click', '.searchBox .sOpen', function(){
+    //     var sch = input.value
+    //     console.log(sch)
+    // })
     // 검색창 닫기버튼
     $('#wrap').on('click', '.searchBox .sClose', function(){
         $(this).parents('.searchBox').css({display:"none"})
