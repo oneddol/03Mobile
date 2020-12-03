@@ -96,6 +96,9 @@ body{
     height:100%; border:1px solid black; border-radius:5px;
     background:#F0F0F0
 }
+#navWrap #lnb .menuBox li:hover{
+    background:#ddd;
+}
 #navWrap #lnb .menuBox li a{text-align:center; display:flex; 
     height:100%; align-items:center; padding-left:37px;
 }
@@ -116,8 +119,11 @@ body{
     border:1px solid #000; border-left:none;
     padding:10px 0; border-radius:5px;
 }
+#footer .quickMenu a:hover{
+    background:#f0f0f0;
+}
 #footer .copyright{
-    padding:5px; text-align:center; background:#fff;
+    padding:5px; text-align:center; background:#f0f0f0;
 }
 
 
@@ -126,16 +132,23 @@ body{
 #content{
     margin-top:160px; text-align:center;
 }
+#content .align{
+    position:relative;
+}
 #content h3{
     padding:5px 20px; font-size:30px;
     display:inline-block; background:#fff; border-radius:15px;
-    
+}
+#content .align{
+    position:absolute; right:0; top:20%;
 }
 #content .box{
     height:100px; border-radius:5px; margin:10px; background:#fff;
     box-shadow:1px 1px 2px 1px #000;
 }
-
+#content .box:hover{
+    color:#000; background:#f0f0f0;
+}
 #content .box a{
     display:inline-block; display:flex; justify-content:center; line-height:100px;
     font-size:45px;
